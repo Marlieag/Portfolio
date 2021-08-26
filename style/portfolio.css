@@ -1,7 +1,21 @@
-body {
-  background: yellow;
+:root {
+  --primary-color: #ffc93c;
+  --seconday-color: #ff9a3c;
+  --third-color: #e94822;
+  --dark-color: #2c2d34;
 }
-
+.hero {
+  background-image: url("/Portfolio/images/background.jpg");
+  padding-top: 250px;
+  background-size: cover;
+}
 h1 {
-  background-color: sred;
+  font-family: "Roboto Slab", sans-serif;
+  font-size: 130px;
+  color: white;
+}
+.btn-primary {
+  background: var(--primary-color) !important;
+  margin: 50px 0px;
+  padding: 10px 15px;
 }
