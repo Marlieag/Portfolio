@@ -5,7 +5,7 @@
   --dark-color: #2c2d34;
 }
 .hero {
-  background-image: url("/Portfolio/images/background.jpg");
+  background-image: url("../images/background.jpg");
   padding-top: 250px;
   background-size: cover;
 }
