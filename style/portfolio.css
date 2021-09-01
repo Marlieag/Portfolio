@@ -1,9 +1,10 @@
 :root {
-  --primary-color: #ffc93c;
+  --primary-color: #c4c4c4;
   --secondary-color: #fba71e;
   --third-color: #e94822;
-  --dark-color: #2c2d34;
+  --text-color: #2c2d34;
 }
+
 .container {
   margin: 0 auto;
 }
@@ -13,7 +14,15 @@
 h1 {
   font-family: "Roboto Slab", sans-serif;
   font-size: 110px;
-  color: #1e1c1c;
+  color: var(--text-color);
+}
+h2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 26px;
+  font-weight: 600;
+  border: 2px black;
+  color: #645d5d;
+  padding: 20px 0px;
 }
 .firstButton {
   display: flex;
@@ -25,8 +34,4 @@ h1 {
   padding: 15px 30px;
   font-size: 18px;
   box-shadow: 0 5px 10px rgba(58, 57, 57, 0.3);
-}
-img {
-  position: relative;
-  top: 200;
 }
