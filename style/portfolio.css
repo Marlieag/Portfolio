@@ -31,7 +31,7 @@ h2 {
   font-weight: 600;
   border: 2px black;
   color: #645d5d;
-  padding: 20px 0px 0px 20px;
+  padding: 15px 0px 0px 20px;
 }
 .firstButton {
   display: flex;
@@ -58,4 +58,68 @@ footer .name {
 footer .email {
   text-align: right;
   line-height: 15px;
+}
+@media (max-width: 576px) {
+  .hero {
+    text-align: center;
+    padding: 80px 0px 90px 0px;
+    margin: auto 0;
+  }
+  h1 {
+    font-size: 65px;
+    padding-left: 0%;
+  }
+  h2 {
+    font-size: 20px;
+    padding-left: 0%;
+  }
+  .btn-primary {
+    padding: 10px 25px;
+    font-size: 15px;
+    margin: 30px 0px 40px 0px;
+  }
+  footer {
+    padding-bottom: 20px;
+  }
+  footer .name {
+    font-size: 15px;
+  }
+  footer .email {
+    font-size: 12px;
+  }
+  footer .coded {
+    font-size: 12px;
+  }
+  .logo {
+    max-width: 30px;
+  }
+  .navbar-brand {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero {
+    padding-bottom: 20px;
+  }
+  h1 {
+    font-size: 57px;
+    padding-left: 0%;
+  }
+  h2 {
+    font-size: 17px;
+    padding-left: 0%;
+    padding-top: 10px;
+  }
+  .gsd {
+    max-width: 410px;
+  }
+  .btn-primary {
+    padding: 10px 25px;
+    font-size: 15px;
+    margin-top: 40px;
+  }
+  footer {
+    padding-bottom: 25px;
+  }
 }
