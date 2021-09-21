@@ -1,0 +1,15 @@
+:root {
+  --primary-color: #c4c4c4;
+  --secondary-color: #fba71e;
+  --third-color: #e94822;
+  --text-color: #2c2d34;
+}
+.logo {
+  max-width: 40px;
+}
+.navbar-brand {
+  font-size: 25px;
+}
+.nav-item {
+  font-size: 18px;
+}
