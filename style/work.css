@@ -13,3 +13,21 @@
 .nav-item {
   font-size: 18px;
 }
+
+footer .social-links a {
+  margin: 0px 25px;
+  color: var(--text-color);
+  background: var(--primary-color);
+  padding: 8px 10px;
+  border-radius: 50%;
+}
+
+footer .social-links a:hover {
+  color: #fff;
+  background: var(--third-color);
+}
+
+footer .footer-text {
+  font-size: 12px;
+  margin: 15px 0px;
+}
