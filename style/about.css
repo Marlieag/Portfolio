@@ -5,10 +5,10 @@
   --text-color: #2c2d34;
 }
 .logo {
-  max-width: 40px;
+  max-width: 30px;
 }
 .navbar-brand {
-  font-size: 25px;
+  font-size: 20px;
 }
 .nav-item {
   font-size: 18px;
@@ -36,6 +36,14 @@ h3 {
   font-family: "Roboto Slab", sans-serif;
   color: white;
   font-size: 90px;
+}
+.profile_image {
+  border-top-right-radius: 1rem 4rem;
+  border-radius: 65% 35% 61% 39% / 37% 72% 28% 63%;
+  transition: 300ms ease-in-out;
+}
+.profile_image:hover{
+  border-radius: 50% 50% 48% 52% / 66% 32% 68% 34%;
 }
 
 .fab {
