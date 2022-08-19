@@ -28,25 +28,38 @@ h2 {
   border: 2px black;
   color: #645d5d;
   line-height: 3px;
-  margin-bottom: 40px;
+  margin-bottom: 80px;
 }
 h3{
   font-size: 20px;
   font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  margin: 0%;
 }
-.project-button{
-  display: flex;
-  justify-content: center;
+p {
+  font-size: 13px;
+  color: var(--text-color);
 }
-.btn-primary {
-  background: var(--secondary-color) !important;
-  margin: 30px 0px;
-  padding: 10px 30px;
-  font-size: 18px;
-  box-shadow: 0 5px 10px rgba(58, 57, 57, 0.3);
+.project-links a{
+  text-decoration: none;
+  color: var(--third-color);
+  margin: 5px;
+  padding: 5px 8px;
+  border-radius: 50%;
+}
+
+.project-links a:hover {
+  color: #fff;
+ background-color: var(--secondary-color);
+}
+.card {
+  box-shadow: 0 3px 15px rgba(117, 115, 115, 0.3);
+}
+footer{
+  margin: 100px 0px 5px;
 }
 footer .social-links a {
-  margin: 0px 25px;
+  margin: 5px 25px;
   color: var(--text-color);
   background: var(--primary-color);
   padding: 8px 10px;
