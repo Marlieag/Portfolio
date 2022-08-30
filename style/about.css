@@ -46,12 +46,12 @@ h3 {
   border-radius: 50% 50% 48% 52% / 66% 32% 68% 34%;
 }
 
-.fab {
+i {
   padding: 20px 10px 0px 0px !important;
 }
-.img-icon {
-  padding-right: 12px !important;
-  width: 50px !important;
+
+.icon-text{
+  text-align: center;
 }
 .contact-info {
   padding: 50px 0px;
