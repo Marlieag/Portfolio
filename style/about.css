@@ -16,9 +16,7 @@
 .container {
   margin: 0 auto;
 }
-.contact-page {
-  background-color: var(--secondary-color);
-}
+
 h1 {
   font-family: "Roboto Slab", sans-serif;
   font-size: 110px;
@@ -32,11 +30,7 @@ h2 {
   color: #645d5d;
   line-height: 3px;
 }
-h3 {
-  font-family: "Roboto Slab", sans-serif;
-  color: white;
-  font-size: 90px;
-}
+
 .profile_image {
   border-top-right-radius: 1rem 4rem;
   border-radius: 65% 35% 61% 39% / 37% 72% 28% 63%;
@@ -53,21 +47,4 @@ i {
 .icon-text{
   text-align: center;
 }
-.contact-info {
-  padding: 50px 0px;
-}
-.contact-page h4 {
-  font-size: 30px;
-}
-.contact-page a {
-  text-decoration: none;
-  color: var(--text-color);
-  font-size: 18px;
-}
-a:hover {
-  color: var(--third-color);
-}
-footer p {
-  font-size: 12px;
-  padding: 20px 0px;
-}
+
