@@ -48,3 +48,20 @@ i {
   text-align: center;
 }
 
+footer .contact-box{
+  background-color: var(--primary-color);
+  padding: 30px 120px;
+  border-radius: 10px;
+}
+h4{
+  font-size: 40px;
+  font-family: "Roboto Slab", sans-serif;
+  color: #ffff;
+}
+.btn-primary {
+  background: var(--secondary-color) !important;
+  padding: 15px 35px;
+  margin: 0%;
+  font-size: 18px;
+  box-shadow: 0 5px 10px rgba(58, 57, 57, 0.3);
+}
