@@ -65,3 +65,8 @@ h4{
   font-size: 18px;
   box-shadow: 0 5px 10px rgba(58, 57, 57, 0.3);
 }
+
+.btn-primary:hover{
+  color: #ffff;
+  background: var(--third-color) !important;
+}
