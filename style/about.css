@@ -30,7 +30,9 @@ h2 {
   color: #645d5d;
   line-height: 3px;
 }
-
+h3{
+  font-size: 20px;
+}
 .profile_image {
   border-top-right-radius: 1rem 4rem;
   border-radius: 65% 35% 61% 39% / 37% 72% 28% 63%;
@@ -56,7 +58,7 @@ footer .contact-box{
 h4{
   font-size: 40px;
   font-family: "Roboto Slab", sans-serif;
-  color: #ffff;
+  color: var(--text-color);
 }
 .btn-primary {
   background: var(--secondary-color) !important;
@@ -69,4 +71,27 @@ h4{
 .btn-primary:hover{
   color: #ffff;
   background: var(--third-color) !important;
+}
+
+@media (max-width: 480px){
+ h1{
+  font-size: 60px;
+ }
+ h2{
+  font-size: 25px;
+ }
+ h3, h4 {
+  font-size: 20px;
+ }
+.contact-box{
+  flex-direction: column;
+  text-align: center;
+  padding: 20px 60px !important;
+}
+.btn-primary{
+  padding: 10px 25px;
+}
+h4, .work-inquiry{
+  font-size: 30px;
+}
 }
