@@ -75,3 +75,18 @@ footer .footer-text {
   font-size: 12px;
   margin: 15px 0px;
 }
+
+@media (max-width: 576px){
+  .card{
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 768px){
+  h1{ 
+    font-size: 70px;
+  }
+  h2 {
+    font-size: 22px;
+  }
+}
